@@ -1,0 +1,118 @@
+.supermarket-banner {
+  height: 110px;
+  width: 100%;
+  padding: 0px 200px;
+  margin-bottom: 10px;
+
+  .supermarket-banner-main {
+    height: 100%;
+    width: 100%;
+    background: url(../images/supermarket-banner/main-bg.svg) left center
+      no-repeat;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 16px;
+    background-color: #f0f0f1;
+    display: flex;
+    flex-flow: row wrap;
+    cursor: pointer;
+
+    .banner-main-right {
+      height: 100%;
+      width: 50%;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      padding-right: 40px;
+      gap: 20px;
+      .basket {
+        height: 62px;
+        width: 66px;
+        object-fit: contain;
+      }
+      .supermarket-ao {
+        height: 28px;
+        width: 250px;
+        object-fit: contain;
+      }
+      span {
+        height: 28px;
+        width: 109.88px;
+        line-height: 28px;
+        font-family: var(--fontFamily);
+        font-size: 14px;
+        color: #fff;
+        border-radius: 9999px;
+        text-align: center;
+        background-color: #029a49;
+      }
+    }
+
+    .banner-main-left {
+      height: 100%;
+      width: 50%;
+      padding-left: 40px;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: left;
+      gap: 10px;
+      .main-left-item {
+        height: 74px;
+        width: 74px;
+        border-radius: 50%;
+        background-color: #fff;
+        position: relative;
+
+        .left-item-center {
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+          img {
+            height: 58px;
+            width: 58px;
+          }
+          span {
+            width: 34px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+            border-radius: 16px;
+            font-family: var(--fontFamily);
+            font-size: 12px;
+            color: #fff;
+            background-color: #d32f2f;
+            position: absolute;
+            bottom: -5px;
+            right: 1px;
+          }
+        }
+      }
+      .main-left-more {
+        height: 50.3px;
+        width: 140px;
+        border-radius: 9999px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        gap: 7px;
+        span{
+            font-family: var(--fontFamily);
+            font-size: 12px;
+            color: #029a49;
+        }
+        img{
+            width: 20px;
+            height: 20px;
+        }
+      }
+    }
+  }
+}

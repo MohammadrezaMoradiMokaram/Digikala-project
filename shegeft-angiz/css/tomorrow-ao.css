@@ -1,0 +1,156 @@
+.tomorrow-ao {
+  height: 110px;
+  width: 100%;
+  padding: 0px 200px;
+  margin-bottom: 28px;
+  position: relative;
+
+  .tomorrow-banner-main {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(
+      267.6deg,
+      rgba(230, 18, 61, 0.1),
+      hsla(0, 0%, 95%, 0)
+    );
+    background-size: 340px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    overflow: hidden;
+    border-radius: 16px;
+    background-color: #f0f0f1;
+    display: flex;
+    flex-flow: row wrap;
+    
+
+    .banner-main-right {
+      height: 100%;
+      width: 50%;
+      padding-right: 40px;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      font-family: var(--fontFamily);
+      gap: 2%;
+      cursor: pointer;
+
+      .main-right-texts {
+        height: 100%;
+        width: 27%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        cursor: pointer;
+        img {
+          height: 28px;
+          width: 206px;
+        }
+        span {
+          font-size: 11px;
+          color: #0c0c0c;
+        }
+      }
+      .timer {
+        height: 100%;
+        width: 71%;
+        padding-bottom: 20px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: right;
+        gap: 4px;
+        .number {
+          height: 28px;
+          width: 28px;
+          border-radius: 4px;
+          background-color: #fff;
+          font-size: 15.5px;
+          color: #23254e;
+          text-align: center;
+          line-height: 30px;
+        }
+        .colon {
+          font-size: 15px;
+          color: #23254e;
+        }
+      }
+    }
+
+    .banner-main-left {
+      height: 100%;
+      width: 50%;
+      padding-left: 40px;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: left;
+      gap: 10px;
+      z-index: 1;
+      cursor: pointer;
+
+      .main-left-item {
+        height: 74px;
+        width: 74px;
+        border-radius: 50%;
+        background-color: #fff;
+        position: relative;
+
+        .left-item-center {
+          height: 100%;
+          width: 100%;
+          border-radius: 50%;
+          overflow: hidden;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            height: 58px;
+            width: 58px;
+          }
+          span {
+            width: 34px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+            border-radius: 16px;
+            font-family: var(--fontFamily);
+            font-size: 12px;
+            color: #fff;
+            background-color: #d32f2f;
+            position: absolute;
+            bottom: -5px;
+            right: 1px;
+          }
+        }
+      }
+      .main-left-more {
+        height: 50.3px;
+        width: 140px;
+        border-radius: 9999px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        gap: 7px;
+        span {
+          font-family: var(--fontFamily);
+          font-size: 12px;
+          color: #ef394e;
+        }
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+}
+
+.tomorrow-ao-bg {
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  background: url(../images/tomorrow-ao/bg-img.svg) left center no-repeat;
+}

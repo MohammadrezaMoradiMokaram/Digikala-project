@@ -1,0 +1,151 @@
+.digiplus-banner {
+  width: 100%;
+  height: 110px;
+  padding: 0px 200px;
+  position: relative;
+  margin-bottom: 25px;
+
+  .digiplus-banner-main {
+    height: 100%;
+    width: 81%;
+    padding: 16px 40px 12px 40px;
+    border-radius: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    font-family: var(--fontFamily);
+    position: absolute;
+    bottom: 0px;
+    cursor: pointer;
+
+    .banner-main-right {
+      height: 100%;
+      width: 40%;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      gap: 20px;
+      .main-right-image {
+        height: 74.2px;
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .early {
+          width: 66px;
+          height: 62px;
+        }
+      }
+
+      .main-right-text {
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        gap: 8px;
+        .right-text-title {
+          font-size: 21px;
+          color: #fff;
+          font-weight: 600;
+        }
+        .right-text-sub {
+          height: 40%;
+          width: 100%;
+          display: flex;
+          flex-flow: row;
+          align-items: center;
+          gap: 30px;
+          span {
+            font-size: 14px;
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    .digiplus-banner-main-left {
+      height: 100%;
+      width: 60%;
+      padding-left: 15px;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: left;
+      gap: 10px;
+
+      .main-left-item {
+        height: 74px;
+        width: 74px;
+        border-radius: 50%;
+        background-color: #fff;
+        position: relative;
+
+        .left-item-center {
+          height: 100%;
+          width: 100%;
+          border-radius: 50%;
+          overflow: hidden;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            height: 58px;
+            width: 58px;
+          }
+          span {
+            width: 34px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+            border-radius: 16px;
+            font-family: var(--fontFamily);
+            font-size: 12px;
+            color: #fff;
+            background-color: #d32f2f;
+            position: absolute;
+            bottom: -5px;
+            right: 1px;
+          }
+        }
+      }
+      .main-left-more {
+        height: 50.3px;
+        width: 140px;
+        border-radius: 9999px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        gap: 7px;
+        span {
+          font-family: var(--fontFamily);
+          font-size: 12px;
+          color: #941b80;
+        }
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+}
+
+.digiplus-banner-bg{
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  background: linear-gradient(311.36deg, #941b80 26.37%, #b12ba4 100%);
+  border: 1px solid rgba(148, 27, 128);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.digiplus-banner-bg2nd {
+  width: 100%;
+  height: 100%;
+  background: url(../images/digiplus-banner/right-bg.svg) right center no-repeat, url(../images/digiplus-banner/left-bg.svg) left center no-repeat;
+  
+}
