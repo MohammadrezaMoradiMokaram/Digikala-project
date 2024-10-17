@@ -1,0 +1,122 @@
+.login {
+  width: 100%;
+  height: 970px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .login-main {
+    height: 485px;
+    width: 400px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    border: 1px solid #e0e0e2;
+    border-radius: 8px;
+    padding: 32px;
+
+    .login-main-logo {
+      height: 75px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+      a{
+        width: 100px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 100px;
+          height: 70px;
+        }
+      }
+    }
+    .login-main-center {
+      height: calc(485px - 108px);
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      font-family: var(--fontFamily);
+
+      .title {
+        height: 30px;
+        width: 100%;
+        text-align: right;
+        font-size: 19px;
+        color: #0c0c0c;
+        margin-bottom: 30px;
+      }
+      .info {
+        height: 40px;
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: self-end;
+        gap: 10px;
+        margin-bottom: 25px;
+        .info-text {
+          display: block;
+          font-size: 12px;
+          color: #3f4064;
+        }
+      }
+      input[type="number"] {
+        width: 100%;
+        height: 50px;
+        padding: 0px 8px;
+        border: 1px solid #d32f2f !important;
+        border-radius: 8px;
+        background-color: #fff;
+        text-align: right;
+        color: #23254e;
+        box-sizing: border-box;
+        outline: none;
+        margin-bottom: 8px;
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+      }
+      .tip {
+        color: #b2001a;
+        font-size: 12px;
+        text-align: right;
+        margin-bottom: 32px;
+      }
+      button{
+        width: 100%;
+        height: 50px;
+        background-color: #ef4056;
+        color: #fff;
+        font-family: var(--fontFamily);
+        border: 1px solid #ef4056;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-bottom: 16px;
+      }
+      .rules{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: right;
+        direction: rtl;
+        gap: 3px;
+        margin-bottom: 30px;
+        .black-text{
+            color: #3f4064;
+            font-size: 11px;
+        }
+        .blue-text{
+            font-size: 11px;
+            color: #008eb2;
+            cursor: pointer;
+        }
+      }
+    }
+  }
+}
