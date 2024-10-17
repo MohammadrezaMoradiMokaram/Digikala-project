@@ -1,0 +1,23 @@
+.ads{
+    width: 100%;
+    height: 242px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 360px;
+    .ads-center{
+        height: inherit;
+        width: 100%;
+        padding-left: 1315px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        gap: 20px;
+        img{
+            width: 312px;
+            height: 241.5px;
+            border-radius: 16px;
+            cursor: pointer;
+        }
+    }
+}

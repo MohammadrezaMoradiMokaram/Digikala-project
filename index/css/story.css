@@ -1,0 +1,62 @@
+.story {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+
+  .story-center {
+    width: 100%;
+    height: inherit;
+    padding: 0px 350px;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .swiper-slider-item {
+        width: inherit;
+        height: inherit;
+        display: flex;
+        flex-flow: column wrap;
+        padding-top: 20px;
+        align-items: center;
+        row-gap: 15px;
+        cursor: pointer;
+
+        img {
+          width: 74px;
+          height: 74px;
+          border-radius: 50%;
+          outline: 1px solid blueviolet;
+          outline-offset: 4px;
+        }
+        p {
+          width: 60%;
+          font-size: 11px;
+          font-family: var(--fontFamily);
+          color: #23254e;
+          line-height: 20px;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

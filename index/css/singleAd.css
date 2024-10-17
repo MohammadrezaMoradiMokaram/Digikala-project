@@ -1,0 +1,17 @@
+.single-ad {
+  height: 165px;
+  width: 100%;
+  padding: 0px 360px;
+  margin-bottom: 20px;
+  .single-ad-center {
+    height: inherit;
+    width: 100%;
+    img {
+      width: 100%;
+      height: inherit;
+      object-fit: cover;
+      border-radius: 16px;
+      cursor: pointer;
+    }
+  }
+}

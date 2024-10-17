@@ -1,0 +1,107 @@
+.Digiclub {
+  width: 100%;
+  height: 90px;
+  padding: 0px 360px;
+  margin-bottom: 20px;
+  direction: ltr;
+  .Digiclub-center {
+    height: inherit;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 16px;
+    background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%),
+      radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
+
+    .Digiclub-center-left {
+      height: inherit;
+      width: 70%;
+      display: flex;
+      align-items: left;
+      .center-left-main {
+        height: inherit;
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        gap: 3px;
+        padding-left: 20px;
+        .left-main-item {
+            width: 270px;
+            height: 65px;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            background-color: #fff;
+            gap: 5px;
+            cursor: pointer;
+          img {
+            height: 60px;
+            width: 168px;
+            object-fit: cover;
+            border: 2px solid #fff;
+          }
+          .text-image {
+            direction: rtl;
+            height: inherit;
+            width:97px;
+            padding-right: 15px;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            span {
+                height: 20px;
+                width: 100%;
+                font-family: var(--fontFamily);
+                font-size: 12px;
+                text-align: center;
+            }
+            img {    
+                       /* SVG */
+              width: 23px;
+              height: 23px;
+              padding-top: 1px;
+            }
+          }
+        }
+      }
+    }
+    .Digiclub-center-right {
+      height: inherit;
+      width: 30%;
+      .center-right-main {
+        height: inherit;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        padding-right: 45px;
+        img {
+          width: 119px;
+          height: 33px;
+          cursor: pointer;;
+        }
+      }
+    }
+  }
+}
+.missions{
+    gap: 2px;
+    span{
+        font-size: 11.67px !important;
+        font-weight: 500 !important;
+        padding-top: 3px;
+    }
+}
+
+.awards{
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.digiclub-item-left-border{
+    border-radius: 8px 0px 0px 8px !important;
+}
+.digiclub-item-right-border{
+    border-radius: 0px 8px 8px 0px !important;
+}

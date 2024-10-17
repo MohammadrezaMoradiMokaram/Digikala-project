@@ -1,0 +1,120 @@
+.selected-offs {
+  height: 820px;
+  width: 100%;
+  padding: 0px 360px;
+  margin-bottom: 20px;
+
+  .selected-offs-center {
+    height: inherit;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    border: 1px solid #e0e0e2;
+    border-radius: 16px;
+    .selected-offs-center-top {
+      height: 90px;
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 7px;
+      img {
+        width: 24px;
+        height: 24px;
+      }
+      span {
+        font-family: var(--fontFamily);
+        font-size: 1.3rem;
+      }
+    }
+    .selected-offs-center-bottom {
+      height: 727.88px;
+      width: 100%;
+      display: flex;
+      flex-flow: column wrap;
+
+      .center-bottom-row {
+        height: 240px;
+        width: 100%;
+        padding-right: 4px;
+        border-bottom: 1px solid #f0f0f1;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        .bottom-row-item {
+          height: 219px;
+          width: 211.6px;
+          border-left: 1px solid #f0f0f1;
+          cursor: pointer;
+  
+          .row-item-main {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            .product-pic {
+              height: 150px;
+              width: 150px;
+              object-fit: cover;
+            }
+            .price {
+              height: 45px;
+              width: 100%;
+              display: flex;
+              flex-flow: row;
+              align-items: center;
+              gap: 1px;
+              .off-percentage {
+                width: 32px;
+                height: 20px;
+                margin-right: 10px;
+                line-height: 22px;
+                text-align: center;
+                border-radius: 16px;
+                font-family: var(--fontFamily);
+                font-size: 11px;
+                color: #fff;
+                background-color: #d32f2f;
+              }
+              .new-price {
+                width: 35%;
+                height: 34px;
+                margin-right: 64px;
+                line-height: 34px;
+                text-align: left;
+                font-family: var(--fontFamily);
+                color: #3f4064;
+              }
+              .toman-img {
+                width: 18px !important;
+                height: 18px !important;
+              }
+            }
+            .old-price {
+              height: 20px;
+              width: 100%;
+              padding-left: 35px;
+              text-align: left;
+              line-height: 7px;
+              font-family: var(--fontFamily);
+              font-size: 11.5px;
+              color: #c0c2c5;
+              text-decoration-line: line-through;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.row-item-no-left-border{
+  border-left: 0px solid #fff !important;
+}
+.row-item-no-bottom-border{
+  border-bottom: 0px solid #fff !important;
+}
+.row-item-no-off{ /* For Old-price And Off-Percentage */
+  opacity: 0;
+}

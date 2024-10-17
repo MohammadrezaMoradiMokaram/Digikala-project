@@ -1,0 +1,55 @@
+.digi-logos {
+    height: 160px;
+    width: 100%;
+    padding: 0px 182px;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #f0f0f1;
+    .digi-logos-top{
+        height: 80px;
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+
+        .digi-logos-top-item{
+            width: calc(100% / 8);
+            height: inherit;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-right: 1px solid #e0e0e2;
+            border-bottom: 1px solid #e0e0e2;
+            cursor: pointer;
+            img{
+                width: 133px;
+                height: 20px;
+            }
+        }
+    }
+    .digi-logos-bottom{
+        height: 80px;
+        width: 100%;
+        padding-right: 15px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        .digi-logos-bottom-item{
+            width: calc(100% / 7);
+            height: inherit;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-right: 1px solid #e0e0e2;
+            cursor: pointer;
+            img{
+                width: 155px;
+                height: 20px;
+            }
+        }
+    }
+  }
+
+.item-no-right-border{
+    border-right: 0px !important;
+  }
